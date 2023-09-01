@@ -131,32 +131,6 @@
 
 
 
-	<div id="vk_api_transport"></div>
-	<script type="text/javascript">
-		window.vkAsyncInit = function() {
-			VK.init({
-				apiId: 
-			});
-
-			
-				VK.Widgets.Like("vk_like", {type: "mini", height: 20});
-			
-
-			
-				VK.Widgets.Comments("vk_comments", {limit: 10, attach: "*"});
-			
-		};
-		setTimeout(function() {
-			var el = document.createElement("script");
-			el.type = "text/javascript";
-			el.src = "//vk.com/js/api/openapi.js";
-			el.async = true;
-			document.getElementById("vk_api_transport").appendChild(el);
-		}, 0);
-	</script>
-
-
-
 
 
 
@@ -410,24 +384,6 @@
 
       
       
-        <div class="post-widgets">
-        
-
-        
-          <div class="social-like">
-            
-              <div class="vk_like">
-                <span id="vk_like"></span>
-              </div>
-            
-
-            
-          </div>
-        
-
-        
-        </div>
-      
       
 
       
@@ -477,7 +433,7 @@
 
   
     <div class="comments" id="comments">
-      <div id="vk_comments"></div>
+      <div id="lv-container" data-id="city" data-uid="MTAyMC81ODkzMy8zNTM5NQ=="></div>
     </div>
 
   
